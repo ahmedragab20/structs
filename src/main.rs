@@ -24,7 +24,7 @@ fn create_product(store: &mut Vec<Product>, product: Product) -> &mut Vec<Produc
         store.push(product);
         return store;
     } else {
-        panic!("Store is full");
+        panic!("Store is full ===");
     }
 }
 
